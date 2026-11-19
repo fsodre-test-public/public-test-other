@@ -9,7 +9,7 @@ def greet(name: str) -> str:
 
 def greet_many(name: str, times: int) -> list[str]:
     """Return the greeting repeated `times` times."""
-    return [greet(name) for _ in range(1, times)]
+    return [greet(name) for _ in range(times)]
 
 
 def main() -> None:
